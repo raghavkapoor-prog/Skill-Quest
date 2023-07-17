@@ -140,6 +140,7 @@ main {
 /*   flex-direction: column; */
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 
@@ -684,3 +685,16 @@ button:hover {
     }
   }
   
+body {
+  background-image: url('galaxy1.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.certificate-section  .video-section{
+
+  display:flex;
+  align-items: center ;
+  justify-content: center;
+   
+}
